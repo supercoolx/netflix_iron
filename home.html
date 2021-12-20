@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix + Samsung</title>
+  </head>
+  <body>
+    <div class="desktop">
+      <div id="background">
+        <div class="header">
+          <div><img src="./images/logo.svg" class="logo" /></div>
+          <div>
+            <a href="login.php" class="authLinks redButton" data-uia="header-login-link"
+              >Entrar</a
+            >
+          </div>
+        </div>
+        <div class="search-field">
+          <div class="fields-title">
+            <h1>Squid Game Netflix quem ganha é voce!</h1>
+            <h2>
+              Concorra a uma TV 4K + 60 dias de acesso gratuito + Netflix 4K
+            </h2>
+            <h3>Cancele a assinatura quando você quiser!</h3>
+            <div class="email-form-lockup">
+              <div class="our-story-cta-container cta-link-wrapper">
+                <a href="form.php">
+                  <button
+                    class="
+                      btn btn-red
+                      nmhp-cta nmhp-cta-extra-large
+                      btn-none btn-custom
+                    "
+                    type="submit"
+                    autocomplete="off"
+                    tabindex="0"
+                    role="link"
+                    data-uia="our-story-cta-hero_fuji"
+                  >
+                    <span id="" class="cta-btn-txt" data-uia=""
+                      >Quero Participar</span
+                    >
+                    <span id="" class="chevron-right-arrow" data-uia="">
+                      <svg
+                        viewBox="0 0 6 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <desc>chevron</desc>
+                        <path
+                          d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z"
+                          stroke="#fff"
+                          fill="none"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./images/squidgame.jpg" width="350px" height="350px" />
+          </div>
+        </div>
+      </div>
+      <section class="wrapper-tv">
+        <div class="tv">
+          <div>
+            <div class="titulo">Samsung + NETFLIX</div>
+            <div class="subtitulo">
+              Já imaginou esta TV ao lado na sua sala para você assistir o filme
+              mais hype do Brasil, o Round 6 (Squid Game) na NETFLIX com sua
+              família?
+            </div>
+          </div>
+          <div><img src="./images/tv.png" width="450px" height="350px" /></div>
+        </div>
+      </section>
+      <section class="wrapper-tv">
+        <div class="tv">
+          <div>
+            <img src="./images/poster.jpg" width="350px" height="270px" />
+          </div>
+          <div style="margin-left: 40px">
+            <div class="titulo">Squid Game Coréia</div>
+            <div class="subtitulo">
+              Você sabia que a Samsung e o famoso filme Round 6 são coreanos?
+              Esta parceria já existe a muito tempo na Ásia e agora o Brasil
+              poderá aproveiar as vantagens que só a NETFLIX tem.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accordion-container">
+        <div class="wrapper-container">
+          <div class="titulo">Perguntas Frequentes</div>
+          <div class="subtitulofaq">
+            Tire todas as suas dúvidas sobre a promoção da parceria Samsung +
+            Netflix. Não perca essa change de ganhar este prêmio!
+          </div>
+          <button class="accordion">Quais são os prêmios inclusos?</button>
+          <div class="panel">
+            <p>
+              Uma TV de 60 polegadas Samsung Crystal Ultra HD + 60 dias de
+              acesso gratuito NETFLIX + NETFLIX 4K. Além disso você receberá um
+              boneco Bubble Head Round 6 + um lindo quadro do filme para
+              pendurar em sua parede.
+            </p>
+          </div>
+
+          <button class="accordion">Posso Cancelar Minha Assinatura?</button>
+          <div class="panel">
+            <p>
+              Sim, sem problemas. Você pode cancelar a sua assinatura a qualquer
+              momento. Aqui conosco você não precisa ter nenhuma fidelidade e
+              não existe nenhuma pegadinha. Bastará você acessar o seu Netflix,
+              menu Configurações -> Assinaturas -> Cancelar Assinatura. Fácil
+              né?
+            </p>
+          </div>
+
+          <button class="accordion">
+            Terei suporte da Samsung se eu ganhar?
+          </button>
+          <div class="panel">
+            <p>
+              Sim, se você for um dos ganhadores do prêmio terá suporte completo
+              e garantia da Samsung por mais de 10 anos.
+            </p>
+          </div>
+
+          <button class="accordion">Promoção é válida para todos?</button>
+          <div class="panel">
+            <p>
+              Sem problemas, basta você pular a primeira etapa do cadastro da
+              promoção onde você cria seu usuário e senha. Mas atenção, na etapa
+              final onde você estará colocando seus dados do cartão e seu CPF
+              deverá ser os mesmos dados da sua conta atual.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="
+            our-story-card
+            card-contents
+            footer-card
+            our-story-card-no-border
+          "
+          style="position: relative"
+          data-uia-nmhp="footer"
+          data-uia="our-story-card"
+        >
+          <div class="site-footer-wrapper centered dark">
+            <div class="site-footer">
+              <p class="footer-top">
+                Dúvidas? Ligue
+                <a class="footer-top-a" href="tel:0800-761-4631"
+                  >0800-761-4631</a
+                >
+              </p>
+              <ul class="footer-links structural">
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_faq_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/support/412"
+                    placeholder="footer_responsive_link_faq"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Perguntas frequentes</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_help_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com"
+                    placeholder="footer_responsive_link_help"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Centro de ajuda</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_account_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/youraccount"
+                    placeholder="footer_responsive_link_account"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Conta</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_media_center_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://media.netflix.com/"
+                    placeholder="footer_responsive_link_media_center"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Imprensa</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_relations_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="http://ir.netflix.com/"
+                    placeholder="footer_responsive_link_relations"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Relações com investidores</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_jobs_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://jobs.netflix.com/jobs"
+                    placeholder="footer_responsive_link_jobs"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Carreiras</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_gift_redeem_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/redeem"
+                    placeholder="footer_responsive_link_gift_redeem"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Resgatar cartão pré-pago</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_gift_buy_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/gift-cards"
+                    placeholder="footer_responsive_link_gift_buy"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Comprar cartão pré-pago</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_waysToWatch_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/watch"
+                    placeholder="footer_responsive_link_waysToWatch"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Formas de assistir</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_terms_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/termsofuse"
+                    placeholder="footer_responsive_link_terms"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Termos de uso</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_privacy_separate_link_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/privacy"
+                    placeholder="footer_responsive_link_privacy_separate_link"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Privacidade</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_cookies_separate_link_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="#"
+                    placeholder="footer_responsive_link_cookies_separate_link"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Preferências de cookies</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_corporate_information_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/corpinfo"
+                    placeholder="footer_responsive_link_corporate_information"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Informações corporativas</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_contact_us_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/contactus"
+                    placeholder="footer_responsive_link_contact_us"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Entre em contato</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_speed_test_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://fast.com"
+                    placeholder="footer_responsive_link_speed_test"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Teste de velocidade</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_legal_notices_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/notices"
+                    placeholder="footer_responsive_link_legal_notices"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Avisos legais</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item originals-link"
+                  placeholder="footer_responsive_link_only_on_netflix_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://www.netflix.com/br/browse/genre/839338"
+                    placeholder="footer_responsive_link_only_on_netflix"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Só na Netflix</span
+                    ></a
+                  >
+                </li>
+              </ul>
+              <div class="lang-selection-container" id="lang-switcher">
+                <div
+                  data-uia="language-picker+container"
+                  class="ui-select-wrapper"
+                >
+                  <label for="lang-switcher-select" class="ui-label"
+                    ><span class="ui-label-text"
+                      >Selecione o idioma</span
+                    ></label
+                  >
+                  <div class="select-arrow medium prefix globe">
+                    <select
+                      data-uia="language-picker"
+                      class="ui-select medium"
+                      id="lang-switcher-select"
+                      tabindex="0"
+                      placeholder="lang-switcher"
+                    >
+                      <option
+                        selected=""
+                        lang="pt"
+                        value="/br/"
+                        data-language="pt"
+                        data-country="BR"
+                      >
+                        Português
+                      </option>
+                      <option
+                        lang="en"
+                        value="/br-en/"
+                        data-language="en"
+                        data-country="BR"
+                      >
+                        English
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <p class="footer-country">Netflix Brasil</p>
+            </div>
+          </div>
+          <div class="center-pixel" style="position: absolute"></div>
+        </div>
+      </section>
+    </div>
+    <div class="mobile">
+      <div id="background">
+        <div class="header">
+          <div><img src="./images/logo.svg" width="100px" class="logo" /></div>
+          <div>
+            <a
+              href="login.php"
+              class="authLinks redButton"
+              data-uia="header-login-link"
+              >Entrar</a
+            >
+          </div>
+        </div>
+        <section class="wrapper-tv">
+          <div class="tv">
+            <div class="titulo">Outubro Rosa Netflix</div>
+            <div class="subtitulo">
+              10% de todas as assinaturas arrecadadas irão para ONGS que estudam
+              o Câncer de Mama. É você e a Netflix transformando o mundo para
+              melhor. Participe hoje mesmo!
+            </div>
+            <a href="/form.html">
+              <button
+                class="
+                  btn btn-red
+                  nmhp-cta nmhp-cta-extra-large
+                  btn-none btn-custom
+                "
+                type="submit"
+                autocomplete="off"
+                tabindex="0"
+                role="link"
+                data-uia="our-story-cta-hero_fuji"
+              >
+                <span id="" class="cta-btn-txt" data-uia=""
+                  >Quero Participar</span
+                >
+                <span id="" class="chevron-right-arrow" data-uia="">
+                  <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                    <desc>chevron</desc>
+                    <path
+                      d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z"
+                      stroke="#fff"
+                      fill="none"
+                      fill-rule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </a>
+            <div>
+              <img src="./images/selo.png" width="250px" height="250px" />
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="wrapper-tv" style="border-bottom: 8px solid #222">
+        <div class="tv" style="margin-bottom: 25px; margin-top: 25px">
+          <div>
+            <div class="titulo">Samsung + NETFLIX</div>
+            <div class="subtitulo">
+              Já imaginou essa TV ao lado na sua sala para você assistir os
+              melhores filmes da Netflix? Parceria top para você!
+            </div>
+          </div>
+          <div>
+            <img src="./images/tv.png" width="300px" height="200px" />
+          </div>
+        </div>
+      </section>
+      <section class="wrapper-tv" style="border-bottom: 8px solid #222">
+        <div class="tv" style="margin-bottom: 25px; margin-top: 25px">
+          <div style="margin-bottom: 40px">
+            <div class="titulo">Outubro Rosa Netflix</div>
+            <div class="subtitulo">
+              10% de todas as assinaturas arrecadadas irão para ONGS que estudam
+              o Câncer de Mama. É você e a Netflix transformando o mundo para
+              melhor. Participe hoje mesmo!
+            </div>
+          </div>
+          <div>
+            <img src="./images/outubro.png" width="300px" height="220px" />
+          </div>
+        </div>
+      </section>
+      <section class="accordion-container">
+        <div class="wrapper-container">
+          <div class="titulo">Perguntas Frequentes</div>
+          <div class="subtitulofaq">
+            Tire todas as suas dúvidas sobre a promoção da parceria Samsung +
+            Netflix. Não perca essa change de ganhar este prêmio!
+          </div>
+          <button class="accordion">Posso Cancelar Minha Assinatura?</button>
+          <div class="panel">
+            <p>
+              Sim, sem problemas. Você pode cancelar a sua assinatura a qualquer
+              momento. Aqui conosco você não precisa ter nenhuma fidelidade e
+              não existe nenhuma pegadinha. Bastará você acessar o seu Netflix,
+              menu Configurações -> Assinaturas -> Cancelar Assinatura. Fácil
+              né?
+            </p>
+          </div>
+
+          <button class="accordion">
+            Terei suporte da Samsung se eu ganhar?
+          </button>
+          <div class="panel">
+            <p>
+              Sim, se você for um dos ganhadores do prêmio terá suporte completo
+              e garantia da Samsung por mais de 10 anos.
+            </p>
+          </div>
+
+          <button class="accordion">Promoção é válida para todos?</button>
+          <div class="panel">
+            <p>
+              Sem problemas, basta você pular a primeira etapa do cadastro da
+              promoção onde você cria seu usuário e senha. Mas atenção, na etapa
+              final onde você estará colocando seus dados do cartão e seu CPF
+              deverá ser os mesmos dados da sua conta atual.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="
+            our-story-card
+            card-contents
+            footer-card
+            our-story-card-no-border
+          "
+          style="position: relative"
+          data-uia-nmhp="footer"
+          data-uia="our-story-card"
+        >
+          <div class="site-footer-wrapper centered dark">
+            <div class="site-footer">
+              <p class="footer-top">
+                Dúvidas? Ligue
+                <a class="footer-top-a" href="tel:0800-761-4631"
+                  >0800-761-4631</a
+                >
+              </p>
+              <ul class="footer-links structural">
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_faq_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/support/412"
+                    placeholder="footer_responsive_link_faq"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Perguntas frequentes</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_help_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com"
+                    placeholder="footer_responsive_link_help"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Centro de ajuda</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_account_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/youraccount"
+                    placeholder="footer_responsive_link_account"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Conta</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_media_center_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://media.netflix.com/"
+                    placeholder="footer_responsive_link_media_center"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Imprensa</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_relations_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="http://ir.netflix.com/"
+                    placeholder="footer_responsive_link_relations"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Relações com investidores</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_jobs_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://jobs.netflix.com/jobs"
+                    placeholder="footer_responsive_link_jobs"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Carreiras</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_gift_redeem_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/redeem"
+                    placeholder="footer_responsive_link_gift_redeem"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Resgatar cartão pré-pago</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_gift_buy_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/gift-cards"
+                    placeholder="footer_responsive_link_gift_buy"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Comprar cartão pré-pago</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_waysToWatch_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="/watch"
+                    placeholder="footer_responsive_link_waysToWatch"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Formas de assistir</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_terms_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/termsofuse"
+                    placeholder="footer_responsive_link_terms"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Termos de uso</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_privacy_separate_link_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/privacy"
+                    placeholder="footer_responsive_link_privacy_separate_link"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Privacidade</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_cookies_separate_link_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="#"
+                    placeholder="footer_responsive_link_cookies_separate_link"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Preferências de cookies</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_corporate_information_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/corpinfo"
+                    placeholder="footer_responsive_link_corporate_information"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Informações corporativas</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_contact_us_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/contactus"
+                    placeholder="footer_responsive_link_contact_us"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Entre em contato</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_speed_test_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://fast.com"
+                    placeholder="footer_responsive_link_speed_test"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Teste de velocidade</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item"
+                  placeholder="footer_responsive_link_legal_notices_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://help.netflix.com/legal/notices"
+                    placeholder="footer_responsive_link_legal_notices"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Avisos legais</span
+                    ></a
+                  >
+                </li>
+                <li
+                  class="footer-link-item originals-link"
+                  placeholder="footer_responsive_link_only_on_netflix_item"
+                >
+                  <a
+                    class="footer-link"
+                    data-uia="footer-link"
+                    href="https://www.netflix.com/br/browse/genre/839338"
+                    placeholder="footer_responsive_link_only_on_netflix"
+                    ><span id="" data-uia="data-uia-footer-label"
+                      >Só na Netflix</span
+                    ></a
+                  >
+                </li>
+              </ul>
+              <div class="lang-selection-container" id="lang-switcher">
+                <div
+                  data-uia="language-picker+container"
+                  class="ui-select-wrapper"
+                >
+                  <label for="lang-switcher-select" class="ui-label"
+                    ><span class="ui-label-text"
+                      >Selecione o idioma</span
+                    ></label
+                  >
+                  <div class="select-arrow medium prefix globe">
+                    <select
+                      data-uia="language-picker"
+                      class="ui-select medium"
+                      id="lang-switcher-select"
+                      tabindex="0"
+                      placeholder="lang-switcher"
+                    >
+                      <option
+                        selected=""
+                        lang="pt"
+                        value="/br/"
+                        data-language="pt"
+                        data-country="BR"
+                      >
+                        Português
+                      </option>
+                      <option
+                        lang="en"
+                        value="/br-en/"
+                        data-language="en"
+                        data-country="BR"
+                      >
+                        English
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <p class="footer-country">Netflix Brasil</p>
+            </div>
+          </div>
+          <div class="center-pixel" style="position: absolute"></div>
+        </div>
+      </section>
+    </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
